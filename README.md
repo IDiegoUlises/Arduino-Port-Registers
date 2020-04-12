@@ -23,15 +23,17 @@ Los registros de puertos permiten una manipulación más rápida y de menor nive
 
 Debe tener en cuenta que los pines 0 y 1 se utilizan para las comunicaciones en serie para programar y depurar el Arduino, por lo que generalmente debe evitarse el cambio de estos pines a menos que sea necesario para las funciones de entrada o salida en serie. Tenga en cuenta que esto puede interferir con la descarga o depuracion del programa.
 
-**Ejemplo con codigo**
+**Encender un Led con codigo normal**
 ```C++
-//Codigo normal
 pinMode(3,OUTPUT);
 digitalWrite(3,HIGH);
 ```
 
+**Encender un Led con el registro de puertos**
 ```C++
-//Con el registro de puertos
 pinMode(3,OUTPUT);
-PORTD = B00001000; // sets digital pins 7,5,3 HIGH
+PORTD = B00001000; //Pin 3 como HIGH
 ```
+* Se demora microsegundos
+* Se utiliza para la comunicacion
+* Es dificil de leer
