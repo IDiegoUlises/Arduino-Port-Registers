@@ -7,9 +7,9 @@ Los registros de puertos permiten una manipulación más rápida y de menor nive
 * D (pines digitales de 0 a 7)
 
 **PORTD se asigna a los pines digitales Arduino 0 a 7**
-* DDRD El registro de direccion de datos del puerto D lectura/escritura
-* PORTD El registro de datos del puerto D lectura/escritura
-* PIND El registro de pines de entrada del puerto D solo lectura
+* DDRD El registro de direccion de datos del puerto D lectura/escritura pinMode();
+* PORTD El registro de datos del puerto D lectura/escritura digitalWrite();
+* PIND El registro de pines de entrada del puerto D solo lectura 
 
 **PORTB se asigna a  pines digitales Arduino 8 a 13 Los dos bits altos (6 y 7) se asignan a los pines de cristal y no son utilizables**
 * DDRB El registro de dirección de datos del puerto B lectura/escritura
@@ -23,7 +23,7 @@ Los registros de puertos permiten una manipulación más rápida y de menor nive
 
 Debe tener en cuenta que los pines 0 y 1 se utilizan para las comunicaciones en serie para programar y depurar el Arduino, por lo que generalmente debe evitarse el cambio de estos pines a menos que sea necesario para las funciones de entrada o salida en serie. Tenga en cuenta que esto puede interferir con la descarga o depuracion del programa.
 
-**Encender un led con codigo normal**
+## Encender un led con codigo normal 
 ```C++
 int led = 3;
 pinMode(led,OUTPUT);
