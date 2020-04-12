@@ -25,3 +25,7 @@ PORTC - El registro de datos del puerto C - lectura / escritura
 PINC - Registro de pines de entrada del puerto C - solo lectura
 
 Sin embargo, debe tener en cuenta que los pines 0 y 1 se utilizan para las comunicaciones en serie para programar y depurar el Arduino, por lo que generalmente debe evitarse el cambio de estos pines a menos que sea necesario para las funciones de entrada o salida en serie. Tenga en cuenta que esto puede interferir con la descarga o depuración del programa.
+
+**Ejemplo con codigo**
+PORTD = B10101000; // sets digital pins 7,5,3 HIGH
+
