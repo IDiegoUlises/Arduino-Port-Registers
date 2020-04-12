@@ -3,11 +3,11 @@
 Los registros de puertos permiten una manipulación más rápida y de menor nivel de los pines de i/o del microcontrolador en una placa Arduino. Los chips utilizados en la placa Arduino (ATmega8 y ATmega168) tienen tres puertos
 
 * B (pin digital 8 a 13)
-* C (pines de entrada analógica)
+* C (pines de entrada analogica)
 * D (pines digitales de 0 a 7)
 
 **PORTD se asigna a los pines digitales Arduino 0 a 7**
-* DDRD El registro de dirección de datos del puerto D lectura/escritura
+* DDRD El registro de direccion de datos del puerto D lectura/escritura
 * PORTD El registro de datos del puerto D lectura/escritura
 * PIND El registro de pines de entrada del puerto D solo lectura
 
@@ -21,7 +21,7 @@ Los registros de puertos permiten una manipulación más rápida y de menor nive
 * PORTC El registro de datos del puerto C lectura/escritura
 * PINC Registro de pines de entrada del puerto C solo lectura
 
-Sin embargo, debe tener en cuenta que los pines 0 y 1 se utilizan para las comunicaciones en serie para programar y depurar el Arduino, por lo que generalmente debe evitarse el cambio de estos pines a menos que sea necesario para las funciones de entrada o salida en serie. Tenga en cuenta que esto puede interferir con la descarga o depuración del programa.
+Debe tener en cuenta que los pines 0 y 1 se utilizan para las comunicaciones en serie para programar y depurar el Arduino, por lo que generalmente debe evitarse el cambio de estos pines a menos que sea necesario para las funciones de entrada o salida en serie. Tenga en cuenta que esto puede interferir con la descarga o depuracion del programa.
 
 **Ejemplo con codigo**
 
