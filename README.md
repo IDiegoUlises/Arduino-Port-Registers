@@ -25,8 +25,9 @@ Debe tener en cuenta que los pines 0 y 1 se utilizan para las comunicaciones en 
 
 **Encender un Led con codigo normal**
 ```C++
-pinMode(3,OUTPUT);
-digitalWrite(3,HIGH);
+int led = 3;
+pinMode(led,OUTPUT);
+digitalWrite(led,HIGH);
 ```
 
 **Encender un Led con el registro de puertos**
