@@ -35,6 +35,9 @@ digitalWrite(led,HIGH);
 pinMode(3,OUTPUT);
 PORTD = B00001000; //Pin 3 como HIGH
 ```
-* Se demora microsegundos
-* Se utiliza para la comunicacion
-* Es dificil de leer
+
+**Encender un Led utilizando solo el registro de puertos**
+```c++
+DDRD = B00001000; //Esto remplaza el pinMode(); y declara pin 3 como OUTPUT
+PORTD = B00001000; //Pin 3 como HIGH
+```
