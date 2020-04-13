@@ -1,6 +1,6 @@
 # Arduino Ports Registers(Registro de puertos)
 
-Los registros de puertos permiten una manipulación más rápida y de menor nivel de los pines de i/o del microcontrolador en una placa Arduino. Los chips utilizados en la placa Arduino (ATmega8 y ATmega168) tienen tres puertos
+Los registros de puertos permiten una manipulación más rápida y de menor nivel de los pines de I/O del microcontrolador en una placa Arduino. Los chips utilizados en la placa Arduino (ATmega8 y ATmega168) tienen tres puertos
 
 * B (pin digital 8 a 13)
 * C (pines de entrada analogica)
