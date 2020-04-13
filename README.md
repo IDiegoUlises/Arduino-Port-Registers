@@ -4,9 +4,9 @@ Los registros de puertos permiten una manipulación mas rapida y de menor nivel 
 
 <img src="https://github.com/IDiegoUlises/Arduino-Port-Registers/blob/master/Images/Registro-de-puertos.png" width="450" height="350" />
 
-* B (pin digital 8 a 13)
-* C (pines de entrada analogica)
-* D (pines digitales de 0 a 7)
+* **B (pin digital 8 a 13)**
+* **C (pines de entrada analogica)**
+* **D (pines digitales de 0 a 7)**
 
 
 
